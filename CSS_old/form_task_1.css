@@ -1,0 +1,424 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { 
+	max-width: 1000px;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 16px; 
+	font-family: 'Montserrat', sans-serif; 
+	 /* fallback for old browsers */
+  	background: -webkit-linear-gradient(to top, #283048, #859398); /* Chrome 10-25, Safari 5.1-6 */
+  	/* background: linear-gradient(to top, #283048, #859398); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* This styles both the navigation bar and the header part of the page. */
+
+header{
+	border-bottom: red;
+	max-width: 100%;
+	background-color: #3a4454;
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px 15px  0px 15px;
+	overflow: hidden;
+	background: url(images/rsz_finger.png);
+	background-repeat: no-repeat;
+	line-height: 36px;
+	background-size: 100%
+}
+
+header h2 { 
+	font-family: 'Lucida Handwriting';
+	color: black;
+ }
+
+nav {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 970px;
+	background-color: #222;
+	padding: 0px 15px 0px 15px;
+	vertical-align: center;
+}
+
+
+
+/*
+img {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px 15px 0px 15px;
+	position: absolute;
+	border:none;
+}
+*/
+
+.nav-main { 
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	background-color: #1c3154;
+	height: 40px;
+	color: #f00;
+	float: right;
+	padding: 0px 15px 0px 15px;
+	position: fixed;
+	top: 0px;
+}
+
+.nav-main > ul {
+	margin: auto;
+	float: right;
+	list-style-type: none;
+	padding: 0px 15px 0px 15px; 
+}
+
+.nav-main > ul > li {
+	float: left;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 0px 15px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-item:hover {
+	background-color: #5890d0;
+	color: black;
+	font-weight: bold;
+}
+
+nav ul {
+	list-style: none;
+}
+
+.footer {
+	float: left;
+	margin-right: 5px;
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+}
+
+nav li {
+	float: left;
+	margin-right: 5px;
+	background-color: transparent;
+	color: white;
+}
+
+form#signup {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px; 
+	padding: 15px;
+	background: #5890d0 url(images/background.jpg) no-repeat 0px -70px;
+	background-size: 1000px;
+	margin-top: 0;
+}
+
+div#services {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px; 
+	padding: 15px;
+	background: #5890d0 url(images/web-design.jpg) no-repeat 0px -70px;
+	background-size: auto;
+	margin-bottom: 0;
+
+}
+
+div#contact {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px; 
+	padding: 15px;
+	background: #5890d0 url(images/contactForm.png) no-repeat 0px -70px;
+	background-size: 1000px;
+	margin-top: 0;
+	line-height: auto;
+	background-position: center;
+}
+
+aside#aside {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size:.8em;
+	background: transparent;
+	padding: 20px;
+	border: 1px solid #696;
+	border-radius: 20px;
+}
+
+hr {
+	padding: 0px;
+	margin:0px;
+}
+
+P {
+	padding: 0px 20px 0px 20px;
+	text-indent: 40px;
+}
+
+.about > p {
+	padding: 5px;
+	margin: 20px;
+}
+
+.about > img {
+	margin: 15px;
+}
+
+.about {
+	max-width: 1000px;
+	background-color: #5890d0;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	padding: 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+form#signup h1 { padding: 25px; margin: 0px; color: #fff; font-size: 2em;}
+
+form#signup h2 { margin: 0px; color: #fff; font-size: 2em; }
+
+form#signup h3 { margin: -5px 0px 12px 0px; color: #fff; font-size: 1.2em; }
+
+form#signup h4 { margin: 15px 0px 3px 0px; color: #fff; font-size: 1em; }
+
+form#signup p, form#signup label { 
+margin: 0px 0px 6px 0px; color: rgba(255,255,255,.8);
+}
+
+form#signup fieldset {
+	border: 1px solid rgba(255,255,255,.4)
+	margin: 15px 0px 15px 0px;
+	padding: 0px 10px 10px 20px;
+}
+
+#email {
+	background-color: #afbdf7;
+}
+
+input#formItems {
+  background-color : #afbdf7;
+  border-radius: 10px;
+  border:0 none;
+  padding: 15px 5px 15px 10px;
+  margin: 10px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+input, textarea {
+  background-color : #afbdf7;
+  border-radius: 10px;
+  padding: 15px 5px 15px 10px;
+  margin: 10px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+input.submit_btn {
+	padding: 0;
+}
+
+input.submit_btn:hover {
+	color: #76b9fc;
+	background-color: #1c3854;
+	font-weight: bold;
+}
+
+form#contactForm {
+	color: white;
+	padding-left: 40px;
+}
+
+input[type=submit]{
+	color: #c7d5db;
+	background-color: #1c3154;
+	width: 20%;
+	border:0 none;
+	border-radius: 10px;
+	line-height: 25px;
+	padding-top: none;
+	margin-top: 4px;
+	font-weight: bold;
+}
+
+.submit:hover{
+	color: #76b9fc;
+	background-color: #1c3854;
+	font-weight: bold;
+}
+
+footer{
+	max-width: 1000px;
+	background-color: #3a4454;
+	color: #5890d0;
+	margin-right: auto;
+	margin-left: auto;
+	height: 50px;
+	padding: 15px;
+}
+
+footer ul {
+	float: right;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.dan {
+	border-radius: 50%;
+	border: 1.5px solid #cccccc;
+  	object-fit: cover;
+
+ 	width: 200px;
+  	height: 200px;
+
+  	float: left;
+  	margin-left: 10px;
+  	padding: 2px;
+}
+
+/* This creates a drop shadow hover effect.*/
+.dan:hover {
+	box-shadow: inset 0px 0px 2px #a00;
+	--box-shadow-color: black;
+    box-shadow: 1px 2px 3px var(--box-shadow-color);
+}
+
+.dev_icon {
+	border-radius: 50%;
+	border: 1px solid #1c3154;
+  	object-fit: cover;
+
+ 	width: 100px;
+  	height: 100px;
+
+  	margin-left: 10px;
+  	padding: 2px;
+  	align-items: center;
+}
+
+.caption {
+	float: right;
+}
+
+.penTesting {
+	border-radius: 50%;
+	border: 1px solid #1c3154;
+  	object-fit: cover;
+
+ 	width: 100px;
+  	height: 100px;
+
+  	margin-left: 0px;
+  	padding: 2px;
+  	align-items: center;
+}
+
+.dataBackUp {
+	border-radius: 50%;
+	border: 1px solid #1c3154;
+  	object-fit: cover;
+
+ 	width: 100px;
+  	height: 100px;
+
+  	margin-left: 0px;
+  	padding: 2px;
+  	align-items: center;
+}
+
+/* This creates a drop shadow hover effect.*/
+.dev_icon:hover {
+	padding: 2px;
+	box-shadow: inset 0px 0px 5px #a00;
+	--box-shadow-color: black;
+    box-shadow: 1px 2px 3px var(--box-shadow-color);
+}
+
+.penTesting:hover {
+	padding: 2px;
+	box-shadow: inset 0px 0px 5px #a00;
+	--box-shadow-color: black;
+    box-shadow: 1px 2px 3px var(--box-shadow-color);
+}
+
+.dataBackUp:hover {
+	padding: 2px;
+	box-shadow: inset 0px 0px 5px #a00;
+	--box-shadow-color: black;
+    box-shadow: 1px 2px 3px var(--box-shadow-color);
+}
+
+.footer {
+	color: #5890d0;
+}
+
+.footer:hover {
+	color: white;
+}
+
+.services {
+	max-width: 1000px;
+	background-color: #5890d0;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	padding: 25px 0px 50px 0px;
+}
+
+.bugingo {
+	max-width: 1000px;
+	background-color: #5890d0;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	padding: 25px 0px 50px 0px;
+}
+
+
+.dev_icons {
+	width: 300px;
+	padding: 0px 5px 0px 5px;
+	float: left;
+	line-height: normal;
+	margin-top: 5px;
+	text-orientation: 
+}
+
+.penTestings {
+	width: 300px;
+	padding: 0px 5px 0px 5px;
+	line-height: normal;
+	margin-top: 5px;
+	text-orientation: 
+}
+
+.dataBackUps {
+	width: 300px;
+	padding: 0px 5px 0px 5px;
+	line-height: normal;
+	margin-top: 5px;
+	text-orientation: 
+}
+
+.dev_icon {
+	margin-right: auto;
+	margin-left: auto;
+	padding: auto;
+}
+

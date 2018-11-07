@@ -1,0 +1,171 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Merriweather:300|Source+Sans+Pro:200,400,600');
+
+:root {
+    /**
+    
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+   */
+
+   /*  Override Variables */
+   --font-family-sans-serif: 'Source Sans Pro', -apple-system,
+   BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+   Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji",
+   "Segoe UI Symbol";
+   --gray-dark: #204569;
+
+    /*  Page Variables */
+   --font-family-serif: Merriweather, serif;
+   --color-text: var(--gray-dark);
+   --font-family-text: var(--font-family-serif);
+   
+}
+
+.family-sans{
+    font-family: var(--font-family-sans-serif);
+}
+
+.site-footer{
+    margin: 0px !important;
+  max-width: 100% !important;
+}
+
+#socials{
+    padding: 30px 30px 5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+}
+
+#contacts{
+    color: #1f2986;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+    
+}
+
+button{
+    width: 243px;
+}
+/*background-image: radial-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
+.form-control{
+    background-color: #1f29863b;
+    color: #1f2986;
+    font-weight: bold;
+    
+}
+
+.form-control:hover{
+    background-color: #e496f74f;
+}
+
+.layout-icon{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layout-media .layout-image{
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.layout-media .layout-title{
+    color: var(--blue);
+    font-family: var(--font-family-sans-serif);
+    font-weight: 400;
+    font-size: 1.6em;
+}
+
+#nav-item{
+    font-weight: bold;
+}
+
+#linkedin:hover{
+    font-size: 30px;
+    color: #0077B5;
+}
+
+#facebook:hover{
+    font-size: 30px;
+    color: #3B5998;
+}
+
+#github:hover{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+#pgoogle:hover{
+    font-size: 30px;
+    color: #DB4437;
+}
+
+#youtube:hover{
+    font-size: 30px;
+    color: #c4302b;
+}
+
+#twitter:hover{
+    font-size: 30px;
+    color: #1DA1F2;
+}
+
+.card:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(34, 73, 99));
+}
+
+aside {
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 0px;
+    font-size:.2.5em;
+    background:#ffffff;
+    padding:20px;
+    /*border:1px solid #696;*/
+    border-radius:20px;
+    font-weight: bold;
+    border-right-color:#fff;
+    filter: drop-shadow(0 0 0.75rem rgb(28, 197, 248));
+  }
+
+  html, footer {
+    margin: 0;
+   }
+
+#body .container{
+    max-width: 100% !important;
+    font-family: var(--font-family-text);
+    color: var(--color-text);
+    font-weight: 200;
+}
