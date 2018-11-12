@@ -149,6 +149,21 @@ button{
     font-weight: bold;
 }
 
+.card-header a{
+    color: white;
+}
+
+#servicesaccordion{
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#training p{
+    background-color: #17a3b84f;
+    padding: 30px;
+}
+
 aside {
     width:80%;
     margin-right:auto;
